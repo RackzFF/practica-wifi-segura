@@ -20,12 +20,25 @@ Durante la prueba, NeverSSL me llevó a este subdominio:
 
 ## Evidencia observada
 
-Después de abrir la pestaña **Network**, recargar la página y seleccionar la solicitud principal, pude ver los siguientes datos:
+Después de abrir la pestaña **Network**, recargar la página y seleccionar la solicitud principal, pude ver los datos de la conexión HTTP.
+
+### Evidencia 1 - Datos generales de la solicitud
+
+![Datos generales de la solicitud HTTP](evidencia/solicitud-http.png)
+
+En esta captura se observa la URL solicitada, el método utilizado, el código de estado y la dirección remota. Los datos principales fueron:
 
 - **Request URL:** `http://beautifulsublimeinnerplay.neverssl.com/online/`
 - **Request Method:** `GET`
 - **Status Code:** `200 OK`
 - **Remote Address:** `34.223.124.45:80`
+
+### Evidencia 2 - Request Headers
+
+![Headers visibles en la solicitud HTTP](evidencia/request-headers.png)
+
+En los **Request Headers** también pude observar información enviada por el navegador:
+
 - **Host:** `beautifulsublimeinnerplay.neverssl.com`
 - **Referer:** `http://neverssl.com/`
 - **Connection:** `keep-alive`

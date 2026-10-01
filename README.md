@@ -24,7 +24,7 @@ Después de abrir la pestaña **Network**, recargar la página y seleccionar la 
 
 ### Evidencia 1 - Datos generales de la solicitud
 
-![Datos generales de la solicitud HTTP](evidencia/solicitud-http.webp)
+![Datos generales de la solicitud HTTP](evidencia/solicitud-http.png)
 
 En esta captura se observa la URL solicitada, el método utilizado, el código de estado y la dirección remota. Los datos principales fueron:
 
